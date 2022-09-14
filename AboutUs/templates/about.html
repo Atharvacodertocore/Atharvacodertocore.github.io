@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html style="background-color:black;">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+  margin: 8px;
+  text-align:center
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: rgb(255, 255, 255);
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.439);
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1 style="color:#ffffff;font-size:40px;">About Us</h1>  
+  <p>A personal and public blog site.You can register and send us your experiences and life stories so that you can inspire people the way you want</p>
+ 
+</div>
+
+<h2 style="text-align:center">Who Are We</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://cdn.discordapp.com/attachments/896632942661632050/1017000488857768036/IMG_20220123_121107.jpg" alt="Vatsal Jaiswal" style="width:100%">
+      <div class="container">
+        <h2 style="color:#ffffff"; >Vatsal Jaiswal</h2>
+        <p class="title">Head Writer</p>
+        <p style="color:#ffffff">An ethusiast and proactive 8th grader residing in Banglore.He has had many ups and downs in his life and many intresting life experiences as well.He surely seems cool.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://cdn.discordapp.com/attachments/896632942661632050/1017005150281400370/Screenshot_1247.png" alt="Atharva Garg" style="width:100%">
+      <div class="container">
+        <h2 style="color:#ffffff">Atharva Garg</h2>
+        <p class="title">Assistant Writer</p>
+        <p style="color:#ffffff">A very bright person as a 7th grader. He has been discouraged multiple times but this has made him nothing but stronger and better than before. He is currently residing in Banglore.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <b style="color:#ffffff">Contact Us</b>
+        <p style="color:#ffffff">Reach Out and Talk to Us.</p>
+        <a href="https://discord.gg/t6XNmZxP" button class="button" style="color:#ffffff">Join Our Discord Server</button></a>
+        &nbsp;
+        <p style="color:#ffffff">Email us at jr.vatsal@gmail.com or agboiz@gmail.com</p><n>
+        &nbsp;
+        <p style="color:#ffffff">or just instagram us</or>
+        <a href="https://www.instagram.com/agboiz412/" button class="button" style="color:#ffffff">Talk to Atharva on Instagram</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
